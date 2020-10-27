@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <random>
 using namespace std;
-//비교 연산자 오버로딩 (==, !=, >=, <=)
+//비교 연산자 오버로딩 (==, !=, >=, >, <, <=)
 // if 문 안에 user define type을 사용하려면 반드시 구현되어 있어야 함
 // std 이용해서 sorting할때 크기 비교 연산자가 반드시 구현되어 있어야 함
 

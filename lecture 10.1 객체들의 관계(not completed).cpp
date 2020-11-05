@@ -1,13 +1,12 @@
 #include <iostream>
+#include <cassert> //assert.h
+#include <array>
 using namespace std;
-//객체들의 관계 object Relationship
-//객체지향 프로그래밍 
-// -> 그 프로그램이 수행해야 할 기능을 정의,
-// -> 그 기능을 수행할때 어떤 객체들이 어떻게 업무를 나눠서 할 지, 어떻게 도움을 주고 받을지 설계
-// -> 그 설계에 따라 여러가지 클래스들을 구현함으로써 프로그래밍 언어로 객체 생성
-
-//클래스간의 관계에서 보이는 패턴
-
+// "":class, '' : member class
+//Composition(구성, 요소) | part - of    | '두뇌'는 "육체"의 일부이다
+//Aggregation(집합)       | Has - a      | 어떤 "사람"이 '자동차'를 가지고 있다. | 구성보다 느슨한 연결관계
+//Association(연계, 제휴) | Uses - a     | "환자"는 '의사'의 치료를 받는다, "의사"는 환자들로부터 치료비를 받는다.
+//Dependency(의존)        | Depends - on | "나"는(다리가 부러져서 한 달 동안) '목발'을 짚었다.
 int main() {
-
+	
 }

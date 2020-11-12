@@ -34,7 +34,7 @@ public:
 	}
 };
 //상속
-class Child : public Mother { //Child class is drived from mother class
+class Child : public Mother { //Child class is derived from mother class
 	//Encapsulation유지
 private:
 	double m_d;
